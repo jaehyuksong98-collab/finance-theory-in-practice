@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+output/report_preview_*.png
+.DS_Store
