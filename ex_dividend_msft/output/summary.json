@@ -1,0 +1,8 @@
+{
+  "sample_size": 4,
+  "opening_declines": 1,
+  "closing_declines": 4,
+  "mean_opening_residual_usd": 3.25,
+  "mean_closing_residual_usd": -2.83,
+  "mean_dividend_yield_pct": 0.204639
+}
