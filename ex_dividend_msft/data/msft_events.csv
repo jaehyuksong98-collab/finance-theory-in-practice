@@ -1,0 +1,5 @@
+ticker,ex_date,dividend_usd,prior_date,prior_close_usd,ex_open_usd,ex_close_usd,announcement_url,price_url,retrieved_date
+MSFT,2025-11-20,0.91,2025-11-19,487.12,492.71,478.43,https://news.microsoft.com/source/2025/09/15/microsoft-announces-quarterly-dividend-increase-6/,https://www.nasdaq.com/market-activity/stocks/msft/historical,2026-10-16
+MSFT,2026-02-19,0.91,2026-02-18,399.60,400.69,398.46,https://news.microsoft.com/source/2025/12/02/microsoft-announces-quarterly-dividend-27/,https://www.nasdaq.com/market-activity/stocks/msft/historical,2026-10-16
+MSFT,2026-05-21,0.91,2026-05-20,421.06,424.75,419.09,https://news.microsoft.com/source/2026/03/10/microsoft-announces-quarterly-dividend-28/,https://www.nasdaq.com/market-activity/stocks/msft/historical,2026-10-16
+MSFT,2026-08-20,0.91,2026-08-19,484.31,483.30,481.15,https://news.microsoft.com/source/2026/06/10/microsoft-announces-quarterly-dividend-29/,https://www.nasdaq.com/market-activity/stocks/msft/historical,2026-10-16
