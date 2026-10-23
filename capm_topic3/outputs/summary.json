@@ -1,0 +1,206 @@
+{
+  "source_snapshot": "202608 CRSP database",
+  "retrieved_date": "2026-10-17",
+  "holding_years": [
+    1963,
+    2025
+  ],
+  "complete_holding_year_count": 63,
+  "monthly_observations_per_decile": 756,
+  "market_excess_monthly_pct": 0.6007936507936508,
+  "annualized_arithmetic_market_excess_pct": 7.209523809523809,
+  "market_excess_monthly_sd_pct": 4.463753287203408,
+  "market_ex_post_annualized_sharpe": 0.4662467036529914,
+  "high_minus_low_monthly_pct": 0.17652116402116402,
+  "annualized_arithmetic_high_minus_low_pct": 2.1182539682539683,
+  "high_minus_low_year_block_bootstrap_95pct_monthly": [
+    -0.40120370370370373,
+    0.7161243386243387
+  ],
+  "capm_implied_high_minus_low_monthly_pct": 1.5233860185185184,
+  "observed_minus_capm_monthly_pct": -1.3468648544973545,
+  "observed_minus_capm_year_block_bootstrap_95pct_monthly": [
+    -2.0073874206349203,
+    -0.689692275132275
+  ],
+  "positive_spread_year_fraction": 0.5873015873015873,
+  "positive_slope_year_fraction": 0.6349206349206349,
+  "mean_yearly_cross_section_slope_monthly_pct_per_beta": 0.14202052991836286,
+  "mean_yearly_cross_section_intercept_monthly_pct": 0.4886810908685248,
+  "deciles": [
+    {
+      "decile": "Lo 10",
+      "mean_prior_beta": 0.22977777777777778,
+      "mean_excess_monthly_pct": 0.554484126984127,
+      "annualized_arithmetic_excess_pct": 6.653809523809524,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 2",
+      "mean_prior_beta": 0.552015873015873,
+      "mean_excess_monthly_pct": 0.5233994708994709,
+      "annualized_arithmetic_excess_pct": 6.280793650793651,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 3",
+      "mean_prior_beta": 0.7572539682539683,
+      "mean_excess_monthly_pct": 0.6108465608465609,
+      "annualized_arithmetic_excess_pct": 7.330158730158731,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 4",
+      "mean_prior_beta": 0.924015873015873,
+      "mean_excess_monthly_pct": 0.6897751322751323,
+      "annualized_arithmetic_excess_pct": 8.277301587301588,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 5",
+      "mean_prior_beta": 1.0811587301587302,
+      "mean_excess_monthly_pct": 0.6313888888888889,
+      "annualized_arithmetic_excess_pct": 7.576666666666666,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 6",
+      "mean_prior_beta": 1.2407301587301587,
+      "mean_excess_monthly_pct": 0.6645238095238095,
+      "annualized_arithmetic_excess_pct": 7.974285714285714,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 7",
+      "mean_prior_beta": 1.412015873015873,
+      "mean_excess_monthly_pct": 0.6633201058201058,
+      "annualized_arithmetic_excess_pct": 7.95984126984127,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 8",
+      "mean_prior_beta": 1.6269206349206349,
+      "mean_excess_monthly_pct": 0.8245370370370371,
+      "annualized_arithmetic_excess_pct": 9.894444444444446,
+      "n_months": 756
+    },
+    {
+      "decile": "Dec 9",
+      "mean_prior_beta": 1.9283174603174602,
+      "mean_excess_monthly_pct": 0.8951322751322751,
+      "annualized_arithmetic_excess_pct": 10.741587301587302,
+      "n_months": 756
+    },
+    {
+      "decile": "Hi 10",
+      "mean_prior_beta": 2.6655873015873017,
+      "mean_excess_monthly_pct": 0.731005291005291,
+      "annualized_arithmetic_excess_pct": 8.772063492063491,
+      "n_months": 756
+    }
+  ],
+  "time_series_regressions": [
+    {
+      "decile": "Lo 10",
+      "regression_beta": 0.5944355231233818,
+      "alpha_monthly_pct": 0.19735103888539685,
+      "r_squared": 0.5882478999480794,
+      "systematic_variance_share": 0.5882478999480795
+    },
+    {
+      "decile": "Dec 2",
+      "regression_beta": 0.7169308881564186,
+      "alpha_monthly_pct": 0.09267194523724165,
+      "r_squared": 0.7142595383568502,
+      "systematic_variance_share": 0.7142595383568504
+    },
+    {
+      "decile": "Dec 3",
+      "regression_beta": 0.8429847252740357,
+      "alpha_monthly_pct": 0.1043866901858902,
+      "r_squared": 0.8335988777733073,
+      "systematic_variance_share": 0.8335988777733074
+    },
+    {
+      "decile": "Dec 4",
+      "regression_beta": 0.9766932722736978,
+      "alpha_monthly_pct": 0.10298401552022018,
+      "r_squared": 0.8723154413840721,
+      "systematic_variance_share": 0.8723154413840724
+    },
+    {
+      "decile": "Dec 5",
+      "regression_beta": 1.0155945353400486,
+      "alpha_monthly_pct": 0.021226140275859673,
+      "r_squared": 0.8945982938388755,
+      "systematic_variance_share": 0.8945982938388756
+    },
+    {
+      "decile": "Dec 6",
+      "regression_beta": 1.1000778285481179,
+      "alpha_monthly_pct": 0.003604034753234009,
+      "r_squared": 0.8858749773246568,
+      "systematic_variance_share": 0.8858749773246566
+    },
+    {
+      "decile": "Dec 7",
+      "regression_beta": 1.1713665250455307,
+      "alpha_monthly_pct": -0.04042946517947099,
+      "r_squared": 0.8926602393938311,
+      "systematic_variance_share": 0.8926602393938309
+    },
+    {
+      "decile": "Dec 8",
+      "regression_beta": 1.2813987624888383,
+      "alpha_monthly_pct": 0.054680796398901665,
+      "r_squared": 0.8619543242441975,
+      "systematic_variance_share": 0.8619543242441976
+    },
+    {
+      "decile": "Dec 9",
+      "regression_beta": 1.4012237281194957,
+      "alpha_monthly_pct": 0.0532859559366734,
+      "r_squared": 0.8273322063589758,
+      "systematic_variance_share": 0.8273322063589756
+    },
+    {
+      "decile": "Hi 10",
+      "regression_beta": 1.6030928924265735,
+      "alpha_monthly_pct": -0.2321227403970234,
+      "r_squared": 0.7586095179500495,
+      "systematic_variance_share": 0.7586095179500497
+    }
+  ],
+  "size_conditioned": [
+    {
+      "size_bucket": "Small",
+      "high_minus_low_monthly_pct": 0.060596957671957656,
+      "annualized_arithmetic_spread_pct": 0.7271634920634918,
+      "positive_year_fraction": 0.5396825396825397
+    },
+    {
+      "size_bucket": "ME2",
+      "high_minus_low_monthly_pct": 0.02296812169312169,
+      "annualized_arithmetic_spread_pct": 0.27561746031746026,
+      "positive_year_fraction": 0.5873015873015873
+    },
+    {
+      "size_bucket": "ME3",
+      "high_minus_low_monthly_pct": 0.127869708994709,
+      "annualized_arithmetic_spread_pct": 1.534436507936508,
+      "positive_year_fraction": 0.6031746031746031
+    },
+    {
+      "size_bucket": "ME4",
+      "high_minus_low_monthly_pct": 0.2076169312169312,
+      "annualized_arithmetic_spread_pct": 2.4914031746031746,
+      "positive_year_fraction": 0.5873015873015873
+    },
+    {
+      "size_bucket": "Big",
+      "high_minus_low_monthly_pct": 0.22620171957671953,
+      "annualized_arithmetic_spread_pct": 2.7144206349206343,
+      "positive_year_fraction": 0.5714285714285714
+    }
+  ]
+}
