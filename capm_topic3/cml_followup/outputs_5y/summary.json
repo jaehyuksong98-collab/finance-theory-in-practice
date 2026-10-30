@@ -1,0 +1,65 @@
+{
+  "source_snapshot": "202608 CRSP database",
+  "beta_zip_sha256": "fb317445a0160c694ee2773d1718490259e1c6873f1490191efc9ec3bcc1b65e",
+  "factors_zip_sha256": "593f4fbef03181bc0b22ff6292f217689dd1fb79355049ca905d95b262040a66",
+  "asset_labels": [
+    "Lo 10",
+    "Dec 5",
+    "Hi 10"
+  ],
+  "train_months": 60,
+  "test_months_per_decision": 12,
+  "grid_step": 0.01,
+  "test_years": [
+    1968,
+    2025
+  ],
+  "n_test_years": 58,
+  "n_test_months": 696,
+  "cash_decisions": 2,
+  "pooled_oos": {
+    "selected": {
+      "annual_excess_pct": 5.759486206896552,
+      "annual_vol_pct": 17.180579410109054,
+      "annual_sharpe": 0.33523236145968793
+    },
+    "equal": {
+      "annual_excess_pct": 7.2298850574712645,
+      "annual_vol_pct": 17.447056002786404,
+      "annual_sharpe": 0.4143899725155124
+    },
+    "market": {
+      "annual_excess_pct": 7.115172413793104,
+      "annual_vol_pct": 15.825698809318801,
+      "annual_sharpe": 0.4495960967994289
+    }
+  },
+  "selected_minus_equal_annual_arithmetic_pp": -1.4703988505747128,
+  "selected_minus_equal_year_bootstrap_95pct_pp": [
+    -3.9918781609195406,
+    1.0526442528735624
+  ],
+  "selected_minus_equal_oos_sharpe": -0.07915761105582447,
+  "selected_minus_equal_sharpe_year_bootstrap_95pct": [
+    -0.22207572000872117,
+    0.07393271065745069
+  ],
+  "mean_selected_weights_when_invested": {
+    "low": 0.5708928571428571,
+    "middle": 0.21535714285714286,
+    "high": 0.21375
+  },
+  "final_window": {
+    "train_start": 202007,
+    "train_end": 202506,
+    "test_start": 202507,
+    "test_end": 202606,
+    "weights": [
+      0.25,
+      0.75,
+      0.0
+    ],
+    "cash_selected": false,
+    "train_selected_sharpe": 0.8224320906301456
+  }
+}
