@@ -1,0 +1,10 @@
+raw/
+__pycache__/
+ANALYSIS_PROTOCOL.md
+ingest.py
+compare_models.py
+make_chart.py
+outputs/ingest_qa.json
+outputs/model_comparison.csv
+outputs/model_comparison.png
+outputs/model_summary.json
